@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require rails-ujs
-document.addEventListener('turbolinks:load', Bootsy.init);
-//= require jquery
 //= require bootstrap-sprockets
+document.addEventListener('turbolinks:load', Bootsy.init);
 //= require_tree .
